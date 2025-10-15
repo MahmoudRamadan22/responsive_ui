@@ -113,11 +113,17 @@ class ExpansesCard extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      Text(type, style: StylesManager.semiBoldStyle16),
-                      Text(date, style: StylesManager.styleRegular14),
-                      Text(
-                        '\$$price',
-                        style: StylesManager.semiBoldStyleWhite24,
+                      Flexible(
+                        child: Text(type, style: StylesManager.semiBoldStyle16),
+                      ),
+                      Flexible(
+                        child: Text(date, style: StylesManager.styleRegular14),
+                      ),
+                      Flexible(
+                        child: Text(
+                          '\$$price',
+                          style: StylesManager.semiBoldStyleWhite24,
+                        ),
                       ),
                     ],
                   ),

@@ -67,4 +67,10 @@ class StylesManager {
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
+  static const TextStyle semiBoldStyleBlue18 = TextStyle(
+    color: Color(0xff4EB7F2),
+    fontSize: 18,
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w600,
+  );
 }
